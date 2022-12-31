@@ -1,0 +1,154 @@
+console.log(`--------------------Assignment2 Bank datails using Objects with data member and member fun-------------------------`)
+console.log(`\n`);
+showDetails =function(){
+const stateBank = {
+  BankName: "State Bank of India",
+  Location: "pune",
+  accountNO: 25461398574,
+  IFSC: `SBI000003245`,
+  interestRate: `7%`,
+};
+console.log(`State Bank of India Details`);
+console.log(stateBank);
+
+const axisBank = {
+  BankName: "`Axis Bank",
+  Location: "Mumbai",
+  accountNO: 265139875,
+  IFSC: `AXIS000002451`,
+  interestRate: `8%`,
+};
+console.log(`Axis Bank  Details`);
+console.log(axisBank);
+
+let hdfcBank = {
+  BankName: "`HDFC Bank",
+  Location: "DAUND",
+  accountNO: 46523189726,
+  IFSC: `HDFC000005698`,
+  interestRate: `8%`,
+};
+console.log(`HDFC Bank  Details`);
+console.log(hdfcBank);
+
+let yesBank = {
+  BankName: "`Yes Bank",
+  Location: "Pune",
+  accountNO: 56231489752,
+  IFSC: `Yes000002359`,
+  interestRate: `9%`,
+};
+console.log(`YES Bank  Details`);+6
+console.log(yesBank);
+}
+showDetails();
+
+console.log(`\n`);
+
+console.log(`------------Assignment 1 Properties-------------------`)
+// console.log(`\n`);
+console.log(`1) Properties:-`);
+const person= {
+    name: "sonali",
+    gender: "female",
+    height:5.4,
+    weight:55
+}
+console.log(person); 
+console.log(`\n`);
+console.log(`2) Include nested objects:-`);
+const degrees ={
+    engineering:"CSE",
+    PHD:"Adv Computing",
+    Master:"Programming",
+    
+}
+console.log(degrees);
+console.log(`\n`);
+console.log(`3) Include nested objects Certificates:-`);
+const Certificates = {
+    One:"Hacker Rank Participation",
+    Two:"Certificate in IFE Cource",
+    Three:"Certificate in Adv Programming"
+}
+console.log(Certificates);
+console.log(`\n`);
+console.log(`4) Add Function`);
+const professor = {
+    degrees: {
+        engineering:"CSE",
+        PHD:"Adv Computing",
+        Master:"Programming",
+        add: function() {
+           return this.engineering +this.PHD +this. Master;
+        }
+    }
+}
+const totaldegrees=
+professor.degrees.add();
+console.log(`Teachers Total Degrees are :- ${totaldegrees}`);
+console.log(`\n`);
+console.log(`5) Add new property:-`);
+person.age = 28;
+console.log(person);
+console.log(`\n`);
+console.log(`6) Modify property:-`);
+person.age = 35;
+console.log(person);
+console.log(`\n`);
+console.log(`7) Delete one certificate from nested object:-`);
+delete Certificates.Two;
+console.log(Certificates);
+console.log(`\n`);
+console.log(`8) Add new certificate in nested object:-`);
+const certificate = {
+    Three:"Angular",
+    One:"Hacker Rank Participation",
+  Two:"Certificate in Adv Programming"
+ 
+}
+console.log(Object.values(certificate));
+console.log(`\n`);
+console.log(`9) The nested object certificate:-`);
+const certificates = certificate["Three"];
+console.log(certificates);
+
+// console.log(`1) SBI Bank details:-`);
+// const bank1 = {
+//   bankName: "State Bank Of India",
+//   location: "Uruli Kanchan",
+//   accountNo: "455643789800",
+//   IFSC: "SBI00000675",
+//   intrestRate: "8%",
+// };
+// console.log(bank1);
+// console.log(`\n`);
+// console.log(`2) AXIS Bank details:-`);
+// const bank2 = {
+//   bankName: "AXIS Bank",
+//   location: "swarget",
+//   accountNo: "675698763408",
+//   IFSC: "AXB00000782",
+//   intrestRate: "10%",
+// };
+// console.log(bank2);
+// console.log(`\n`);
+// console.log(`3) HDFC Bank details:-`);
+// const bank3 = {
+//   bankName: "HDFC Bank",
+//   location: "Hadpsar",
+//   accountNo: "785647609122",
+//   IFSC: "HDFC0000243",
+//   intrestRate: "11%",
+// };
+// console.log(bank3);
+// console.log(`\n`);
+// console.log(`4) YES Bank details:-`);
+// const bank4 = {
+//   bankName: "YES Bank",
+//   location: "pune",
+//   accountNo: "670987784345",
+//   IFSC: "YB00000908",
+//   intrestRate: "14%",
+// };
+// console.log(bank4);

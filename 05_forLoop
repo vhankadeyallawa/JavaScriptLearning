@@ -1,0 +1,121 @@
+// // Print numbers from 0 to 10
+// // initialization 0   condition <=10   update expre = ++
+// // var i=0;  // i = 0 1 2  10  11
+// // while (i<=10) {  // true true 
+// //    console.log(i);  //0 1 2   10
+// //    i++; // 1 2  10  11
+// // }
+
+
+// // Print numbers from 0 to 10
+// // initialization 0   condition <=10   update expre = ++
+// // var index =0;
+// // do {
+// //     console.log(index);
+// //     index++;
+// // } while (index<=10);
+
+
+// // Print numbers from 5 to 15var i=50;  // i = 0 1 2  10  11
+// // var i=50;
+// // while (i>=40) {  // true true 
+// //    console.log(i);  //0 1 2   10
+// //    i--;
+// // }
+// //    // 1 2  10  11
+// // initialization 5   condition <=15   update expre = ++
+// var i=5;  // i = 0 1 2  10  11
+//  while (i<=15) {  // true true 
+//     console.log(i);  //0 1 2   10
+//     i++; // 1 2  10  11
+// }
+
+
+
+// for (let index = 50; index>=40;index--){
+//    console.log(`${index}`);
+// }
+// console.log(`---------------------------------`);
+// for (let index = 1; index<=30;index++){
+//    if(index %2 == 1){
+//    console.log(`${index}`);
+// }
+// }
+// console.log(`---------------------------------`);
+// for (let index = 1; index<=20;index++){
+//    if(index %2 == 0){
+//    console.log(`${index}`);
+// }
+// }
+//  console.log(`---------------------------------`);
+//  for (let index = 5; index<=50; index+5) {
+//     console.log(`${index}`);
+//  }
+//  console.log(`---------------------------------`);
+// for (let index = 10; index<=100; index+10){
+//     console.log(`${index}`);
+// }
+//  console.log(`---------------------------------`);
+//  for (let index = 100; index>=10; index-10) {
+//     console.log(`${index}`);
+//  }
+
+
+
+console.log(`---------------Q.1) for loop---------------------------------------------------------- `)
+
+ for (let index = 5; index <=15; index++) {
+   console.log(index);
+   
+}
+console.log(`---------------Q.2) for loop---------------------------------------------------------- `)
+
+//print the numbers from 50 to 40 by decrementing by 1
+for (let index = 50; index > 40; index--) {
+   console.log(index);
+   
+}
+console.log(`---------------Q.3) for loop---------------------------------------------------------- `)
+
+//find first 15 odd numbers
+for (let index = 1; index <=15; index=index+2) {
+   console.log(index);
+   
+}
+console.log(`---------------Q.4) for loop---------------------------------------------------------- `)
+
+//find first 10 even numbers
+for (let index = 2; index <=10; index=index+2) {
+   console.log(index);
+   
+}
+console.log(`---------------Q.5) for loop---------------------------------------------------------- `)
+
+
+for (let index = 5; index <=50; index=index+5) {
+   console.log(index);
+   
+}
+console.log(`---------------Q.6) for loop---------------------------------------------------------- `)
+
+
+for (let index = 10; index <=100; index=index+10) {
+   console.log(index);
+   
+}
+console.log(`---------------Q.7) for loop---------------------------------------------------------- `)
+
+
+for (let index = 100; index >=10; index=index-10) {
+   console.log(index);
+    
+}
+
+console.log(`======== slice() methods=========`);
+var arrayOfNum = [4, 5, 6, 8, 9, 33, 66];
+let sliceResult = arrayOfNum.slice(3);
+let sliceRes = arrayOfNum.slice(2, 5);
+console.log(arrayOfNum);
+console.log(sliceResult);
+console.log(sliceRes);
+bb
